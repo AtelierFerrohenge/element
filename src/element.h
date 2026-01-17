@@ -11,6 +11,12 @@ public:
     Element() = default;
     ~Element() override = default;
 
+    void set_name(String p_name);
+    String get_name() const;
+
 protected:
     static void _bind_methods();
+
+private:
+    String name = "";
 };
