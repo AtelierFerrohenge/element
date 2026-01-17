@@ -1,6 +1,6 @@
 @tool
 @abstract
-class_name Element
+class_name ElementOld
 extends Resource
 
 @export var name: StringName
